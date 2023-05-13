@@ -12,7 +12,7 @@ body {
 /* Universal Styles */
 
 header {
-  border-bottom: #999 solid 8px;
+  border-bottom: hsl(0deg, 0%, 60%) solid 8px;
 }
 .intro-chunk {
   padding: 96px 24px 64px;
@@ -21,7 +21,7 @@ header {
 }
 
 .intro-chunk strong {
-  color: #009966;
+  color: hsl(160deg, 100%, 30%);
 }
 
 .intro-chunk p {
@@ -29,30 +29,30 @@ header {
 }
 
 .title {
-  font-size: 32px;
+  font-size: 2rem;
   margin-block-start: 0;
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 main {
-  background-color: #666;
+  background-color: hsl(0deg, 0%, 40%);
   padding: 64px 0;
 }
 
 .card {
-  background-color: white;
+  background-color: hsl(0deg, 0%, 100%);
   padding: 8px 24px 24px 24px;
   margin: auto;
   max-width: 769px;
-  border-bottom: #999 solid 8px;
+  border-bottom: hsl(0deg, 0%, 60%) solid 8px;
 }
 
 .indented-heading {
-  background-color: #ffbf00;
-  border-bottom: #cc9900 solid 8px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: hsl(45deg, 100%, 40%) solid 8px;
   padding: 12px 32px;
   margin-block-start: 0;
   margin-inline-start: -24px;
